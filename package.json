@@ -1,0 +1,21 @@
+{
+  "name": "entrega-n2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ezequiel Clara",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
